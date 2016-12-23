@@ -1,0 +1,1 @@
+/usr/bin/tor -f /etc/tor/torrc --runasdaemon 0
