@@ -1,8 +1,8 @@
-version: '2'
+version: '3'
 
 services:
   tor:
     build: .
-    restart: always
     ports:
       - 127.0.0.1:9050:9050/tcp
+    restart: unless-stopped
